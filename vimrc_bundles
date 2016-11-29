@@ -92,11 +92,20 @@ Plugin 'VundleVim/Vundle.vim'
         Bundle 'vimoutliner/vimoutliner.git'
         Bundle 'scrooloose/nerdtree'
         Bundle 'tpope/vim-surround'
+        Bundle 'ctrlpvim/ctrlp.vim'
+        Bundle 'tacahiroy/ctrlp-funky'
+
     " }
 
     " Colors {
         Bundle 'altercation/vim-colors-solarized'
         Bundle 'spf13/vim-colors'
+    " }
+
+    " Misc {
+        Bundle 'tpope/vim-markdown'
+        Bundle 'spf13/vim-preview'
+        Bundle 'saltstack/salt-vim'
     " }
 
 "}

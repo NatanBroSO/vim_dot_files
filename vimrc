@@ -37,7 +37,27 @@
         endif
     " }
 
-" }
+    " Setup Bundle Support {
+        " The next three lines ensure that the ~/.vim/bundle/ system works
+        filetype off
+        set rtp+=~/.vim/bundle/vundle
+        " " " " " " call vundle#rc()
+        call vundle#begin() " 
+	} 
+
+    " Add an UnBundle command {
+    function! UnBundle(arg, ...)
+      let bundle = vundle#config#init_bundle(a:arg, a:000)
+      call filter(g:vundle#bundles, 'v:val["name_spec"] != "' . a:arg . '"')
+    endfunction
+
+    com! -nargs=+         UnBundle
+    \ call UnBundle(<args>)
+    " }
+
+
+" } Environment
+
 " Key (re)Mappings {
 
         let mapleader = ','
