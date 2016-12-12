@@ -40,10 +40,10 @@
     " Setup Bundle Support {
         " The next three lines ensure that the ~/.vim/bundle/ system works
         filetype off
-        set rtp+=~/.vim/bundle/vundle
+        set rtp+=~/.vim/bundle/Vundle.vim
         " " " " " " call vundle#rc()
         call vundle#begin() " 
-	} 
+    " } 
 
     " Add an UnBundle command {
     function! UnBundle(arg, ...)
