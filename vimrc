@@ -255,7 +255,9 @@
 
     map <leader>bn  :bnext <cr>
     map <leader>bp  :bprevious <cr>
+    map <leader>bl  :buffers <cr>
 
+    map <C-N>   :redraw <cr>
 
 
 
