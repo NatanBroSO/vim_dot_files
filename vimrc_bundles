@@ -106,6 +106,8 @@ Plugin 'VundleVim/Vundle.vim'
         Bundle 'tpope/vim-markdown'
         Bundle 'spf13/vim-preview'
         Bundle 'saltstack/salt-vim'
+        Bundle 'stephpy/vim-yaml'
+
     " }
 
 "}
