@@ -19,6 +19,11 @@ Provide code examples and explanations of how to get the project.
 
 ## Installed Plugins
 
+| Plugin name | URL |  |  |
+|-------------|-----|--|--|
+| fugitive |https://github.com/tpope/vim-fugitive  |  |  |
+
+
 ## Keyboard mapping
 
 

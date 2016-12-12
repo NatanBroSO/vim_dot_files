@@ -109,7 +109,11 @@ Plugin 'VundleVim/Vundle.vim'
         Bundle 'stephpy/vim-yaml'
 
     " }
+    "
+    " Git {
+        Bundle 'tpope/vim-fugitive'
 
+    " }
 "}
 set nofoldenable
 call vundle#end()            " required
