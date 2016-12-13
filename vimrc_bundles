@@ -94,7 +94,14 @@ Plugin 'VundleVim/Vundle.vim'
         Bundle 'tpope/vim-surround'
         Bundle 'ctrlpvim/ctrlp.vim'
         Bundle 'tacahiroy/ctrlp-funky'
-
+        Bundle 'mbbill/undotree'
+        Bundle 'powerline/fonts'
+"        Bundle 'bling/vim-bufferline'
+        Bundle 'easymotion/vim-easymotion'
+        Bundle 'jistr/vim-nerdtree-tabs'
+        Bundle 'flazz/vim-colorschemes'
+        Bundle 'nathanaelkane/vim-indent-guides'
+        Bundle 'jeetsukumaran/vim-buffergator'
     " }
 
     " Colors {
@@ -113,6 +120,16 @@ Plugin 'VundleVim/Vundle.vim'
     " Git {
         Bundle 'tpope/vim-fugitive'
 
+    " }
+    "
+    "
+    " General Programming {
+        Bundle 'godlygeek/tabular'
+        Bundle 'luochen1990/rainbow'
+        if executable('ctags')
+            Bundle 'majutsushi/tagbar'
+        endif
+        Bundle 'matchit.zip'
     " }
 "}
 set nofoldenable

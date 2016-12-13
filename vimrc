@@ -101,9 +101,10 @@
     "set autowrite                       " Automatically write a file when leaving a modified buffer
     set shortmess+=filmnrxoOtT          " Abbrev. of messages (avoids 'hit enter')
     set viewoptions=folds,options,cursor,unix,slash " Better Unix / Windows compatibility
-    set virtualedit=onemore             " Allow for cursor beyond last character
+"    set virtualedit=onemore             " Allow for cursor beyond last character
+    set virtualedit=onemore,block       " Allow for cursor beyond last character
     set history=1000                    " Store a ton of history (default is 20)
-    set spell                           " Spell checking on
+    set nospell                         " Spell checking off
     set hidden                          " Allow buffer switching without saving
     set iskeyword-=.                    " '.' is an end of word designator
     set iskeyword-=#                    " '#' is an end of word designator
@@ -252,12 +253,23 @@
 
     " Change buffers
 
-
-    map <leader>bn  :bnext <cr>
-    map <leader>bp  :bprevious <cr>
-    map <leader>bl  :buffers <cr>
-
     map <C-N>   :redraw <cr>
+
+    " NerdTree {
+        if isdirectory(expand("~/.vim/bundle/nerdtree"))
+            map <leader>e  :NERDTreeToggle<CR>
+            map <leader>ef :NERDTreeFind<CR>
+
+            let NERDTreeShowBookmarks=1
+            let NERDTreeIgnore=['\.py[cd]$', '\~$', '\.swo$', '\.swp$', '^\.git$', '^\.hg$', '^\.svn$', '\.bzr$']
+            let NERDTreeChDirMode=0
+            let NERDTreeQuitOnOpen=0
+            let NERDTreeMouseMode=2
+            let NERDTreeShowHidden=1
+            let NERDTreeKeepTreeInNewTab=1
+            let g:nerdtree_tabs_open_on_gui_startup=0
+        endif
+    " }
 
 
 
