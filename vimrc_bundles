@@ -102,12 +102,27 @@ Plugin 'VundleVim/Vundle.vim'
         Bundle 'flazz/vim-colorschemes'
         Bundle 'nathanaelkane/vim-indent-guides'
         Bundle 'jeetsukumaran/vim-buffergator'
+        "# Bundle 'mhinz/vim-signify'
+        "# Bundle 'tpope/vim-abolish.git'
+        "# Bundle 'osyo-manga/vim-over'
+        Bundle 'kana/vim-textobj-user'
+        Bundle 'kana/vim-textobj-indent'
+        "# Bundle 'gcmt/wildfire.vim'
     " }
 
     " Colors {
         Bundle 'altercation/vim-colors-solarized'
         Bundle 'spf13/vim-colors'
     " }
+    "
+
+    " Writing {
+        Bundle 'reedes/vim-litecorrect'
+        Bundle 'reedes/vim-textobj-sentence'
+        Bundle 'reedes/vim-textobj-quote'
+        "# Bundle 'reedes/vim-wordy'
+    " }
+
 
     " Misc {
         Bundle 'tpope/vim-markdown'
@@ -132,6 +147,11 @@ Plugin 'VundleVim/Vundle.vim'
         Bundle 'matchit.zip'
     " }
     "
+    " Snippets & AutoComplete {
+        Bundle 'SirVer/ultisnips'
+        Bundle 'honza/vim-snippets'
+    " }
+    
     " Python {
         " Pick either python-mode or pyflakes & pydoc
         Bundle 'klen/python-mode'
