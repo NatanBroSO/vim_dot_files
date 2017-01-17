@@ -148,8 +148,8 @@ Plugin 'VundleVim/Vundle.vim'
     " }
     "
     " Snippets & AutoComplete {
-        Bundle 'SirVer/ultisnips'
-        Bundle 'honza/vim-snippets'
+"        Bundle 'SirVer/ultisnips'
+"        Bundle 'honza/vim-snippets'
     " }
     
     " Python {
@@ -173,6 +173,9 @@ Plugin 'VundleVim/Vundle.vim'
     " }
 
 "}
+"
+Bundle 'aklt/plantuml-syntax.git'
+
 set nofoldenable
 call vundle#end()            " required
 filetype plugin indent on    " required
