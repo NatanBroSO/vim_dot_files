@@ -125,7 +125,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 
     " Misc {
-        Bundle 'tpope/vim-markdown'
+        "Bundle 'tpope/vim-markdown'
+        Bundle 'gabrielelana/vim-markdown.git'
         Bundle 'spf13/vim-preview'
         Bundle 'saltstack/salt-vim'
         Bundle 'stephpy/vim-yaml'
@@ -148,8 +149,8 @@ Plugin 'VundleVim/Vundle.vim'
     " }
     "
     " Snippets & AutoComplete {
-"        Bundle 'SirVer/ultisnips'
-"        Bundle 'honza/vim-snippets'
+        Bundle 'SirVer/ultisnips'
+        Bundle 'honza/vim-snippets'
     " }
     
     " Python {
