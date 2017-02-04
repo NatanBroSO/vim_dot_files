@@ -203,6 +203,7 @@
     set list
     "set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
     set nowrapscan
+    set belloff=all                 " Completely disable the bell for errors and pressing "ESC" on normal mode 
 
 " }
 
