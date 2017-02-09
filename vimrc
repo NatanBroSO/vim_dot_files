@@ -243,6 +243,10 @@
 
 " }
 
+" Vimoutline {
+    autocmd FileType votl setlocal spell nolist foldenable
+" }
+
 " Key (re)Mappings {
     " Easier moving in tabs and windows
     " The lines conflict with the default digraph mapping of <C-K>
