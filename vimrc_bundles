@@ -148,7 +148,7 @@ Plugin 'VundleVim/Vundle.vim'
     "}
     
     " Typescript {
-        Bundle 'Quramy/tsuquyomi'
+"        Bundle 'Quramy/tsuquyomi'
         Bundle 'clausreinke/typescript-tools.vim'
     " }
 
