@@ -201,8 +201,9 @@
     set scrolloff=3                 " Minimum lines to keep above and below cursor
     set nofoldenable                " Auto fold code
     set list
-    set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
+    "set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
     set nowrapscan
+    set belloff=all                 " Completely disable the bell for errors and pressing "ESC" on normal mode 
 
 " }
 
@@ -235,8 +236,15 @@
     " Workaround broken colour highlighting in Haskell
     autocmd FileType haskell,rust setlocal nospell
 
+" markdown {
+    let g:markdown_enable_folding = 1
+    autocmd FileType markdown setlocal tw=78 bg=light foldenable spell
+    autocmd BufWinEnter,FileType markdown colorscheme pencil
 
+" }
 
+" Vimoutline {
+    autocmd FileType votl setlocal spell nolist foldenable
 " }
 
 " Key (re)Mappings {
