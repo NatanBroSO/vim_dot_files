@@ -173,11 +173,17 @@ Plugin 'VundleVim/Vundle.vim'
 "        Bundle 'Quramy/tsuquyomi'
         Bundle 'clausreinke/typescript-tools.vim'
     " }
+    "
+    " Trinity {
+        " Bundle 'wesleyche/Trinity.git'
 
-"}
+    " }
+    "
+    " PlantUML {
+        Bundle 'aklt/plantuml-syntax.git'
+    " }
 "
-Bundle 'aklt/plantuml-syntax.git'
-
+"
 set nofoldenable
 call vundle#end()            " required
 filetype plugin indent on    " required
