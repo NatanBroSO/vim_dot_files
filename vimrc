@@ -200,7 +200,7 @@
     set scrolljump=5                " Lines to scroll when cursor leaves screen
     set scrolloff=3                 " Minimum lines to keep above and below cursor
     set nofoldenable                " Auto fold code
-    set list
+"    set list
     "set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
     set nowrapscan
     set belloff=all                 " Completely disable the bell for errors and pressing "ESC" on normal mode 

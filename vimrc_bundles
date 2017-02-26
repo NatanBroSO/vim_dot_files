@@ -92,21 +92,21 @@ Plugin 'VundleVim/Vundle.vim'
         Bundle 'vimoutliner/vimoutliner.git'
         Bundle 'scrooloose/nerdtree'
         Bundle 'tpope/vim-surround'
-        Bundle 'ctrlpvim/ctrlp.vim'
-        Bundle 'tacahiroy/ctrlp-funky'
-        Bundle 'mbbill/undotree'
-        Bundle 'powerline/fonts'
+"        Bundle 'ctrlpvim/ctrlp.vim'
+"        Bundle 'tacahiroy/ctrlp-funky'
+"        Bundle 'mbbill/undotree'
+"        Bundle 'powerline/fonts'
 "        Bundle 'bling/vim-bufferline'
-        Bundle 'easymotion/vim-easymotion'
-        Bundle 'jistr/vim-nerdtree-tabs'
-        Bundle 'flazz/vim-colorschemes'
-        Bundle 'nathanaelkane/vim-indent-guides'
-        Bundle 'jeetsukumaran/vim-buffergator'
+"        Bundle 'easymotion/vim-easymotion'
+"        Bundle 'jistr/vim-nerdtree-tabs'
+"        Bundle 'flazz/vim-colorschemes'
+"        Bundle 'nathanaelkane/vim-indent-guides'
+"        Bundle 'jeetsukumaran/vim-buffergator'
         "# Bundle 'mhinz/vim-signify'
         "# Bundle 'tpope/vim-abolish.git'
         "# Bundle 'osyo-manga/vim-over'
-        Bundle 'kana/vim-textobj-user'
-        Bundle 'kana/vim-textobj-indent'
+"        Bundle 'kana/vim-textobj-user'
+"        Bundle 'kana/vim-textobj-indent'
         "# Bundle 'gcmt/wildfire.vim'
     " }
 
@@ -117,9 +117,9 @@ Plugin 'VundleVim/Vundle.vim'
     "
 
     " Writing {
-        Bundle 'reedes/vim-litecorrect'
-        Bundle 'reedes/vim-textobj-sentence'
-        Bundle 'reedes/vim-textobj-quote'
+"        Bundle 'reedes/vim-litecorrect'
+"        Bundle 'reedes/vim-textobj-sentence'
+"        Bundle 'reedes/vim-textobj-quote'
         "# Bundle 'reedes/vim-wordy'
     " }
 
@@ -128,8 +128,8 @@ Plugin 'VundleVim/Vundle.vim'
         "Bundle 'tpope/vim-markdown'
         Bundle 'gabrielelana/vim-markdown.git'
         Bundle 'spf13/vim-preview'
-        Bundle 'saltstack/salt-vim'
-        Bundle 'stephpy/vim-yaml'
+"        Bundle 'saltstack/salt-vim'
+"        Bundle 'stephpy/vim-yaml'
 
     " }
     "
@@ -140,17 +140,17 @@ Plugin 'VundleVim/Vundle.vim'
     "
     "
     " General Programming {
-        Bundle 'godlygeek/tabular'
-        Bundle 'luochen1990/rainbow'
+"        Bundle 'godlygeek/tabular'
+"        Bundle 'luochen1990/rainbow'
         if executable('ctags')
-            Bundle 'majutsushi/tagbar'
+"            Bundle 'majutsushi/tagbar'
         endif
-        Bundle 'matchit.zip'
+"        Bundle 'matchit.zip'
     " }
     "
     " Snippets & AutoComplete {
-        Bundle 'SirVer/ultisnips'
-        Bundle 'honza/vim-snippets'
+"        Bundle 'SirVer/ultisnips'
+"        Bundle 'honza/vim-snippets'
     " }
     
     " Python {
@@ -163,15 +163,15 @@ Plugin 'VundleVim/Vundle.vim'
     " }
     "
     " Javascript {
-        Bundle 'elzr/vim-json'
-        Bundle 'groenewege/vim-less'
-        Bundle 'pangloss/vim-javascript'
-        Bundle 'briancollins/vim-jst'
+"        Bundle 'elzr/vim-json'
+"        Bundle 'groenewege/vim-less'
+"        Bundle 'pangloss/vim-javascript'
+"        Bundle 'briancollins/vim-jst'
     "}
     
     " Typescript {
 "        Bundle 'Quramy/tsuquyomi'
-        Bundle 'clausreinke/typescript-tools.vim'
+"        Bundle 'clausreinke/typescript-tools.vim'
     " }
     "
     " Trinity {
@@ -180,7 +180,7 @@ Plugin 'VundleVim/Vundle.vim'
     " }
     "
     " PlantUML {
-        Bundle 'aklt/plantuml-syntax.git'
+"        Bundle 'aklt/plantuml-syntax.git'
     " }
 "
 "
