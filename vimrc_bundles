@@ -113,6 +113,7 @@ Plugin 'VundleVim/Vundle.vim'
     " Colors {
         Bundle 'altercation/vim-colors-solarized'
         Bundle 'spf13/vim-colors'
+        Bundle 'reedes/vim-colors-pencil.git'
     " }
     "
 
