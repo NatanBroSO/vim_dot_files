@@ -89,15 +89,15 @@ Plugin 'VundleVim/Vundle.vim'
 
 
     " General {
-        Bundle 'vimoutliner/vimoutliner.git'
-        Bundle 'scrooloose/nerdtree'
-        Bundle 'tpope/vim-surround'
+         Bundle 'vimoutliner/vimoutliner.git'
+        "Bundle 'scrooloose/nerdtree'
+        "Bundle 'tpope/vim-surround'
 "        Bundle 'ctrlpvim/ctrlp.vim'
 "        Bundle 'tacahiroy/ctrlp-funky'
 "        Bundle 'mbbill/undotree'
 "        Bundle 'powerline/fonts'
 "        Bundle 'bling/vim-bufferline'
-"        Bundle 'easymotion/vim-easymotion'
+        "Bundle 'easymotion/vim-easymotion'
 "        Bundle 'jistr/vim-nerdtree-tabs'
 "        Bundle 'flazz/vim-colorschemes'
 "        Bundle 'nathanaelkane/vim-indent-guides'
@@ -126,9 +126,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 
     " Misc {
-        "Bundle 'tpope/vim-markdown'
-        Bundle 'gabrielelana/vim-markdown.git'
-        Bundle 'spf13/vim-preview'
+         Bundle 'tpope/vim-markdown'
+        "Bundle 'gabrielelana/vim-markdown.git'
+        "Bundle 'spf13/vim-preview'
 "        Bundle 'saltstack/salt-vim'
 "        Bundle 'stephpy/vim-yaml'
 
@@ -156,7 +156,7 @@ Plugin 'VundleVim/Vundle.vim'
     
     " Python {
         " Pick either python-mode or pyflakes & pydoc
-        Bundle 'python-mode/python-mode.git'
+        "Bundle 'python-mode/python-mode.git'
         "Bundle 'klen/python-mode'
         "Bundle 'yssource/python.vim'
         "Bundle 'vim-scripts/python_match.vim'
@@ -184,7 +184,10 @@ Plugin 'VundleVim/Vundle.vim'
 "        Bundle 'aklt/plantuml-syntax.git'
     " }
 "
-"
+    " Restructured text (rst)
+    " {
+    "        Bundle 'Rykka/riv.vim.git'
+    " }
 set nofoldenable
 call vundle#end()            " required
 filetype plugin indent on    " required

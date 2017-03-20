@@ -239,7 +239,7 @@
 " markdown {
     let g:markdown_enable_folding = 1
     autocmd FileType markdown setlocal tw=78 bg=light foldenable spell
-    autocmd BufWinEnter,FileType markdown colorscheme pencil
+    autocmd BufWinEnter,FileType markdown let b:temp_color=g:colors_name | colorscheme "pencil"
 
 " }
 
