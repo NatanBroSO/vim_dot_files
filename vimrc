@@ -245,10 +245,38 @@
     " Workaround broken colour highlighting in Haskell
     autocmd FileType haskell,rust setlocal nospell
 
+    let g:is_temp_colorscheme=0
+    function SetMyCS()
+        if &filetype == "markdown"
+            let g:is_temp_colorscheme=1
+            colorscheme pencil
+        else
+            if g:is_temp_colorscheme!=0
+                exec "colorscheme ".g:before_markdown_color
+                let g:is_temp_colorscheme=0
+            endif
+        endif
+    endfunction
+
+    function SetDefaultColor()
+        if g:is_temp_colorscheme!=1
+            let g:before_markdown_color=g:colors_name
+        endif
+    endfunction
+
+    autocmd BufWinEnter *.* call SetMyCS()
+    autocmd BufWinLeave *.* call SetMyCS()
+    autocmd ColorScheme * call SetDefaultColor()
+
+
 " markdown {
     let g:markdown_enable_folding = 1
     autocmd FileType markdown setlocal tw=78 bg=light foldenable spell
-    autocmd BufWinEnter,FileType markdown let b:temp_color=g:colors_name | colorscheme "pencil"
+    "autocmd BufEnter,FileType markdown let b:temp_color=g:colors_name
+    "autocmd BufEnter,FileType markdown colorscheme pencil
+    "autocmd BufEnter,FileType markdown echo "Selecting pencil"
+    "autocmd BufLeave,FileType markdown exec "colorscheme ".b:temp_color
+    "autocmd BufLeave,FileType markdown echo "Back to Molokai"
 
 " }
 
@@ -477,4 +505,8 @@
         endif
     endif
 " }
+
+
+    let g:before_markdown_color=g:colors_name
+
 " }
